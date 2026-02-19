@@ -1,0 +1,164 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[margin=0.75in]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Udit Prabhakar} \\ \vspace{5pt}
+    \textbf{\Large Software Engineer} \\ \vspace{8pt}
+    \small \faIcon{map-marker-alt} Delhi, India $|$ 
+    \faIcon{phone} +91-9097753202 $|$ 
+    \href{mailto:uditprabhakar.up@gmail.com}{\faIcon{envelope} \underline{uditprabhakar.up@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/udit-prabhakar-m4v8r7s/}{\faIcon{linkedin} \underline{linkedin.com/in/udit-prabhakar-m4v8r7s}}
+\end{center}
+
+\vspace{5pt}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\small{Software Developer with 3.5+ years of experience in Python, Django, and backend systems. Skilled in building scalable APIs, microservices, and cloud-based solutions using AWS, MongoDB, and Docker. Delivered high-impact projects for enterprise clients. Strong in data modeling, system design, and agile development. Holds a patent and IT engineering degree.}
+
+%-----------EDUCATION-----------
+\vspace{3pt}
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Technology (B.Tech) in Information Technology}{May 2018 -- May 2022}
+      {Sharda University, Greater Noida, Uttar Pradesh}{CGPA: 8.0 | First Division}
+  \resumeSubHeadingListEnd
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\vspace{3pt}
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Attackfence Techlabs}{Jun 2025 -- Present}
+      {Software Engineer}{Gurugram, Haryana, India}
+      \resumeItemListStart
+        \resumeItem{Developed Network Detection and Response (NDR) solutions for cybersecurity, implementing advanced threat detection mechanisms to monitor and analyze network traffic in real-time}
+        \resumeItem{Built rules management and control dashboard for NDR development, enabling security teams to configure, monitor, and manage detection rules efficiently}
+        \resumeItem{Designed and implemented MITRE ATT\&CK framework mapping solution to correlate detected threats with adversarial tactics, techniques, and procedures (TTPs), enhancing incident response and threat intelligence capabilities}
+        \resumeItem{Developed automated Suricata rules validation and deployment pipeline, reducing rule deployment time by 50\% and improving threat detection accuracy}
+        \resumeItem{Engineered an event-driven architecture (EDA) to secure Operational Technology (OT) environments, enabling real-time threat detection and automated responses to security incidents}
+        \resumeItem{Developed and tested secure backend services and APIs using Python and Django REST Framework, focusing on application security and vulnerability mitigation}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Ecom Express Limited}{Jun 2022 -- Jun 2025}
+      {Software Development Engineer}{Gurugram, Haryana, India}
+      \resumeItemListStart
+        \resumeItem{Designed and developed scalable RESTful APIs and microservices using Python, Django, and FastAPI, supporting over 10,000 daily transactions with 99.9\% uptime}
+        \resumeItem{Built real-time data processing pipelines with Kafka, reducing response latency by 40\% for business-critical applications}
+        \resumeItem{Optimized MongoDB and MySQL databases to support over 10 million records, improving query performance by 30\%}
+        \resumeItem{Deployed and managed AWS infrastructure (EC2, S3, RDS) and implemented CI/CD pipelines with Jenkins and Docker, cutting deployment time by 50\% and operational costs by 15\%}
+        \resumeItem{Led the end-to-end development of claims management platforms and customer dashboards, increasing user engagement by 25\%}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\vspace{3pt}
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, HTML, CSS} \\
+     \textbf{Web Frameworks}{: Django, REST Framework} \\
+     \textbf{Frontend}{: React} \\
+     \textbf{Databases}{: SQLite, MySQL, MongoDB, Parquet} \\
+     \textbf{DevOps \& Tools}{: Git, Docker, Jenkins, CI/CD} \\
+     \textbf{Cloud \& Hosting}{: AWS (EC2, S3, RDS), Linux} \\
+     \textbf{Messaging \& Streaming}{: Kafka} \\
+     \textbf{Version Control}{: GitHub, GitLab, BitBucket} \\
+     \textbf{Testing \& Debugging}{: Postman, PyTest} \\
+     \textbf{Others}{: API Design, Microservices Architecture, Code Review, Unit Testing, System Architecture, Performance Optimization, Agile Methodologies, Scrum, Communication, Problem-Solving}
+ \end{itemize}
+
+%-----------ADDITIONAL INFORMATION-----------
+\vspace{3pt}
+\section{Additional Information}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: English, Hindi} \\
+     \textbf{Certifications}{: Cybersecurity Foundation (Palo Alto Networks, Sharda University), Software Development Trainee Certification -- Aspiring Minds (now SHL)} \\
+     \textbf{Patent}{: Detection and Hacking of Unauthorised Unmanned Vehicles} \\
+     \hspace{1.5em} Patent Number: IN202211042825 | Granted: July 27, 2022 \\
+     \hspace{1.5em} Invented a system to detect and prevent unauthorized access and control of unmanned aerial vehicles (UAVs), \\
+     \hspace{1.5em} contributing to advancements in drone security and real-time threat mitigation technologies.
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
